@@ -1,0 +1,6 @@
+*.dvi
+*.aux
+*.bak
+*.out
+*.synctex.gz
+*.gz
