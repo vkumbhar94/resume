@@ -37,10 +37,10 @@ repository for building and shipping official Logicmonitor public helm-charts to
 Typescript
 : Contributor to [pkgx.dev](https://pkgx.dev/),
 A blazingly fast package runner [pkgxdev](https://github.com/pkgxdev/pkgx).
-⭐ [auto detection of pkgs from skaffold.yaml](https://github.com/pkgxdev/pkgx/pull/810)
-⭐ [kpt dep detection in skaffold](https://github.com/pkgxdev/pkgx/pull/825)
-⭐ [adding skaffold to pkgx pantry](https://github.com/pkgxdev/pantry/pull/3660)
-⭐ [adding kpt to pkgx pantry](https://github.com/pkgxdev/pantry/pull/3667)
+$⭐$ [auto detection of pkgs from skaffold.yaml](https://github.com/pkgxdev/pkgx/pull/810)
+$⭐$ [kpt dep detection in skaffold](https://github.com/pkgxdev/pkgx/pull/825)
+$⭐$ [adding skaffold to pkgx pantry](https://github.com/pkgxdev/pantry/pull/3660)
+$⭐$ [adding kpt to pkgx pantry](https://github.com/pkgxdev/pantry/pull/3667)
 
 ## Education
 
