@@ -5,7 +5,7 @@ title: Vaibhav Kumbhar
 > <vkumbhar94@gmail.com> • +91 940 318 3440\
 >  E-402, Pristine Prolife, Phase 1, Wakad, Pune, IN - 411 057
 
-> [![linkedin](./icons8-linkedin.svg){#id .class width=40 height=30px}](https://www.linkedin.com/in/beingvaibhav/) [![github](./icons8-github.svg){#id .class width=40 height=30px}](https://github.com/vkumbhar94) [![medium](./icons8-medium.svg){#id .class width=40 height=30px}](https://medium.com/@vkumbhar94)
+> [![linkedin](./icons8-linkedin.svg){#id .class width=40 height=30px}](https://www.linkedin.com/in/beingvaibhav/) [![github](./icons8-github.svg){#id .class width=40 height=30px}](https://github.com/vkumbhar94) [![medium](./icons8-medium.svg){#id .class width=40 height=30px}](https://medium.com/@vkumbhar94) [![personal-website](./icons8-personal-website.svg){#id .class width=40 height=30px}](https://vkumbhar94.github.io/personal-website/)
 
 ---
 
