@@ -6,7 +6,7 @@ bd:
 index.html: bd index.md style.css ## generates html
 	cp style.css assets/
 	cp style.tex assets/
-	cp icons8-linkedin.svg assets/
+	cp icons8-*.svg assets/
 	pandoc --standalone -c style.css --from markdown --to html -o assets/index.html index.md
 
 index.pdf: bd index.html ## generates pdf from html using wkhtmltopdf
