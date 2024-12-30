@@ -1,9 +1,13 @@
 name: Build Resume
 
 on: push
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  convert_via_pandoc:
+  build:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
@@ -16,7 +20,21 @@ jobs:
       #     # this will also include README.md
       #     echo "files=$(printf '"%s" ' *.md)" > $GITHUB_OUTPUT
       - run: make docker-all
-      - uses: actions/upload-artifact@v4
+      #- uses: actions/upload-artifact@v4
+      #  with:
+      #    name: index
+      #    path: assets
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: index
           path: assets
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
