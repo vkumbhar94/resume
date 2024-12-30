@@ -7,6 +7,8 @@ title: Vaibhav Kumbhar
 
 > [![linkedin](./icons8-linkedin.svg){#id .class width=40 height=30px}](https://www.linkedin.com/in/beingvaibhav/) [![github](./icons8-github.svg){#id .class width=40 height=30px}](https://github.com/vkumbhar94) [![medium](./icons8-medium.svg){#id .class width=40 height=30px}](https://medium.com/@vkumbhar94) [![personal-website](./icons8-personal-website.svg){#id .class width=40 height=30px}](https://vkumbhar94.github.io/personal-website/)
 
+> Download: [pdf](https://vkumbhar94.github.io/resume/index.pdf) [docx](https://vkumbhar94.github.io/resume/index.docx) [txt](https://vkumbhar94.github.io/resume/index.txt) View: [html](https://vkumbhar94.github.io/resume)
+
 ---
 
 > Specialties: Golang, Python, Linux, Operations Research\
