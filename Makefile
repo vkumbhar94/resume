@@ -1,19 +1,25 @@
 all: index.html index.pdf index.docx index.txt
 
-index.html: index.md style.css ## generates html
-	pandoc --standalone -c style.css --from markdown --to html -o index.html index.md
+.PHONY: bd
+bd:
+	mkdir -p assets
+index.html: bd index.md style.css ## generates html
+	cp style.css assets/
+	cp style.tex assets/
+	cp icons8-linkedin.svg assets/
+	pandoc --standalone -c style.css --from markdown --to html -o assets/index.html index.md
 
-index.pdf: index.html ## generates pdf from html using wkhtmltopdf
-	wkhtmltopdf --enable-local-file-access index.html index.pdf
+index.pdf: bd index.html ## generates pdf from html using wkhtmltopdf
+	wkhtmltopdf --enable-local-file-access assets/index.html assets/index.pdf
 
-index.docx: index.md ## generates docx
-	pandoc --from markdown --to docx -o index.docx index.md
+index.docx: bd index.md ## generates docx
+	pandoc --from markdown --to docx -o assets/index.docx index.md
 
-index.txt: index.md ## generates txt
-	pandoc -s --from markdown --to plain -o index.txt index.md
+index.txt: bd index.md ## generates txt
+	pandoc -s --from markdown --to plain -o assets/index.txt index.md
 
 clean: ## removes all generated files
-	rm -f *.html *.pdf *.docx *.txt
+	rm -rf *.html *.pdf *.docx *.txt assets/*
 
 docker-%: ## runs any make target in docker container
 	docker build -t pandoc-base -q .
