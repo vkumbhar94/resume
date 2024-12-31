@@ -5,8 +5,7 @@ title: Vaibhav Kumbhar
 > <vkumbhar94@gmail.com> • +91 940 318 3440\
 >  E-402, Pristine Prolife, Phase 1, Wakad, Pune, IN - 411 057
 
-> [![linkedin](./icons8-linkedin.svg){#id .class width=40 height=30px}](https://www.linkedin.com/in/beingvaibhav/) [![github](./icons8-github.svg){#id .class width=40 height=30px}](https://github.com/vkumbhar94) [![medium](./icons8-medium.svg){#id .class width=40 height=30px}](https://medium.com/@vkumbhar94) [![personal-website](./icons8-personal-website.svg){#id .class width=40 height=30px}](https://vkumbhar94.github.io/personal-website/)
-
+> [![linkedin](./icons8-linkedin.svg){#id .class width=40 height=30px}](https://www.linkedin.com/in/beingvaibhav/) [![github](./icons8-github.svg){#id .class width=40 height=30px}](https://github.com/vkumbhar94) [![medium](./icons8-medium.svg){#id .class width=40 height=30px}](https://medium.com/@vkumbhar94) [![personal-website](./icons8-personal-website.svg){#id .class width=40 height=30px}](https://vkumbhar94.github.io/personal-website/)\
 > Download: [pdf](https://vkumbhar94.github.io/resume/index.pdf) [docx](https://vkumbhar94.github.io/resume/index.docx) [txt](https://vkumbhar94.github.io/resume/index.txt) View: [html](https://vkumbhar94.github.io/resume)
 
 ---
@@ -69,4 +68,4 @@ Sports
 ---
 
 > <vkumbhar94@gmail.com> • +91 940 318 3440\
->  E-402, Pristine Prolife, Wakad, Pune, IN - 411 057
+>  E-402, Pristine Prolife, Phase 1, Wakad, Pune, IN - 411 057
