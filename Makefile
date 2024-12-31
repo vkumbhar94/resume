@@ -1,4 +1,4 @@
-all: index.html index.pdf index.docx index.txt
+all: index.html index.pdf index.docx index.txt index.tex
 
 .PHONY: bd
 bd:
@@ -17,6 +17,9 @@ index.docx: bd index.md ## generates docx
 
 index.txt: bd index.md ## generates txt
 	pandoc -s --from markdown --to plain -o assets/index.txt index.md
+
+index.tex: bd index.md ## generates txt
+	pandoc -s --from markdown --to latex -o assets/index.tex index.md
 
 clean: ## removes all generated files
 	rm -rf *.html *.pdf *.docx *.txt assets/*

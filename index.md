@@ -65,7 +65,8 @@ and South East Asia.
 Sports
 : Yoga, Hiking.
 
----
+<!--
 
 > <vkumbhar94@gmail.com> • +91 940 318 3440\
 >  E-402, Pristine Prolife, Phase 1, Wakad, Pune, IN - 411 057
+> -->
