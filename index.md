@@ -29,6 +29,11 @@ Jan-Dec 2024
 
 : Technically lead the Logs team. Delivered Logs Partitions/Namespaces feature.
 
+Jan-Dec 2023
+: Senior software engineer 
+
+: handled argus
+
 ## Open Source Contributions
 
 Golang
