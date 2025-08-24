@@ -15,18 +15,68 @@ title: Vaibhav Kumbhar
 
 ---
 
+## Technical Skills
+
+| Programming | Web Development | Databases | Cloud Platforms |
+| ----------- | --------------- | --------- | --------------- |
+| Python      | HTML            | MySQL     | AWS             |
+| Java        | CSS             | PostgreSQL| Azure           |
+| JavaScript  | React           | MongoDB   | Google Cloud    |
+| C++         | Node.js         | Redis     | OpenStack       |
+| Golang      | Angular         | InfluxDB  | Digital Ocean   |
+
+| DevOps & Infrastructure | Tools & Technologies | Operating Systems | Soft Skills     |
+| ----------------------- | -------------------- | ----------------- | --------------- |
+| Docker                  | Git                  | Linux             | Leadership      |
+| Kubernetes              | Jenkins              | macOS             | Teamwork        |
+| CI/CD                   | Prometheus           | Windows           | Problem Solving |
+| Helm                    | Grafana              | Ubuntu            | Mentoring       |
+| Terraform               | ELK Stack            | CentOS            | Communication   |
+
+---
+
 ## Corporate Experience
 
 Since Jan, 2025
-: _Lead Software Engineer for [Logicmonitor](https://www.logicmonitor.com)_
+: **_Lead Software Engineer for [Logicmonitor](https://www.logicmonitor.com)_**
 (Pune, IN).
-: Technically leading the logs team.
+
+: +-----------------------+
+| - Leading the Logs Team, providing technical guidance, mentorship, and ensuring on-time delivery of committed features.
++-----------------------+
 
 Jan-Dec 2024
-: _Staff Software Engineer for [Logicmonitor](https://www.logicmonitor.com)_
+: **_Staff Software Engineer for [Logicmonitor](https://www.logicmonitor.com)_**
 (Pune, IN).
 
-: Technically lead the Logs team. Delivered Logs Partitions/Namespaces feature.
+: +-----------------------+
+| - Led the Logs Team, providing technical guidance, mentorship, and ensuring on-time delivery of committed features.
+| - Successfully architected and implemented the Logs Partitions feature, resolving a critical bottleneck and significantly improving system performance.
+| - Collaborated cross-functionally to align logging infrastructure with business objectives and product roadmaps.
+| - Fostered a culture of continuous improvement, ensuring best practices in team
++-----------------------+
+
+Feb-Dec 2023
+: **_Senior Software Engineer - Logs Team_**
+
+: +-----------------------+
+| - Identified and resolved the scalability bottlenecks of logs writer service.
++-----------------------+
+
+Aug 2020 - Feb 2023
+: **_Senior Software Engineer - Argus Team_**
+
+: +-----------------------+
+| - Optimized Argus to accelerate discovery time, enabling earlier monitoring initiation.
++-----------------------+
+
+Jan 2020 - Aug 2023
+: **_Software Engineer - Argus Team_**
+
+: +-----------------------+
+| - Have taken knowledge transfer from China team of Argus project
+| - Successfully implemented support for monitoring the new k8s versions
++-----------------------+
 
 ## Open Source Contributions
 
