@@ -117,6 +117,7 @@ Repository for building and shipping official LogicMonitor public helm-charts to
 **Contributor** to [pkgx.dev](https://pkgx.dev/) - A blazingly fast package runner
 
 Key contributions:
+
 - ⭐ [Auto detection of pkgs from skaffold.yaml](https://github.com/pkgxdev/pkgx/pull/810)
 - ⭐ [KPT dep detection in skaffold](https://github.com/pkgxdev/pkgx/pull/825)  
 - ⭐ [Adding skaffold to pkgx pantry](https://github.com/pkgxdev/pantry/pull/3660)
@@ -130,11 +131,11 @@ Key contributions:
 **Walchand College of Engineering** • *2012-2016*  
 *Sangli, Maharashtra, India*
 
-Top renowned autonomous institute in Maharashtra. Comprehensive curriculum covering fundamentals like C programming, Database systems, Operating systems, and advanced topics including Cloud computing, Data warehousing, Information Security, and Artificial Intelligence.
+Premier autonomous engineering institute in Maharashtra. Coursework included core subjects like C programming, Database systems, Operating systems, and specialized areas including Cloud computing, Data warehousing, Information Security, and Artificial Intelligence.
 
 ---
 
 ## Personal Interests
 
-**Travel:** Backpacked through 13 countries in Eastern Europe and South East Asia  
-**Fitness:** Yoga, Hiking
+**Exploring Nature:** Road trips to scenic destinations around Pune  
+**Fitness:** Yoga, Badminton
