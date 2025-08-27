@@ -1,116 +1,357 @@
-/*
- * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
- *
- * CSS for making a resume with pandoc. Inspired by moderncv.
- *
- * This CSS document is delivered to you under the CC BY-SA 3.0 License.
- * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
- */
+/* Professional Resume CSS for pandoc and wkhtmltopdf */
 
-/* Whole document */
+/* Page setup for PDF generation */
+@page {
+    size: A4;
+    margin: 0.75in 0.75in 0.75in 0.75in;
+}
+
+/* Base styles */
+* {
+    box-sizing: border-box;
+}
+
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  width: 800px;
-  margin: auto;
-  background: #ffffff;
-  padding: 10px 10px 10px 10px;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.4;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
 }
 
-/*
-.title {
-    display: none;
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 1.2;
 }
-*/
 
-/* Title of the resume */
 h1 {
-  font-size: 55px;
-  color: #757575;
-  text-align: center;
-  margin-bottom: 15px;
+    font-size: 28pt;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 8pt;
 }
 
-/* Titles of categories */
 h2 {
-  color: #397249;
+    font-size: 14pt;
+    color: #34495e;
+    margin-bottom: 12pt;
+    margin-top: 20pt;
+    position: relative;
+    padding-left: 0;
 }
-/* There is a bar just before each category */
+
+/* Green bar before h2 headings */
 h2:before {
-  content: "";
-  display: inline-block;
-  margin-right: 1%;
-  width: 16%;
-  height: 10px;
-  background-color: #9cb770;
+    content: "";
+    display: inline-block;
+    margin-right: 12pt;
+    width: 60pt;
+    height: 8pt;
+    background-color: #27ae60;
+    vertical-align: middle;
 }
 
-/* Definitions */
-dt {
-  float: left;
-  clear: left;
-  width: 17%;
-  font-weight: bold;
+h3 {
+    font-size: 12pt;
+    color: #2c3e50;
+    margin-bottom: 4pt;
+    margin-top: 12pt;
 }
-dd {
-  margin-left: 17%;
+
+h4 {
+    font-size: 11pt;
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 4pt;
 }
+
 p {
-  margin-top: 0;
-  margin-bottom: 7px;
+    margin: 0 0 8pt 0;
+    text-align: justify;
 }
 
-/* Blockquotes */
-blockquote {
-  text-align: center;
+/* Header section */
+.header {
+    text-align: center;
+    margin-bottom: 20pt;
+    padding-bottom: 16pt;
+    border-bottom: 2px solid #ecf0f1;
+}
+
+.contact-info {
+    margin: 0;
+    text-align: center;
+}
+
+.contact-info strong {
+    font-size: 20pt;
+    color: #2c3e50;
+    display: block;
+    margin-bottom: 6pt;
+}
+
+.social-links {
+    margin-top: 8pt;
+    font-size: 10pt;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 1pt;
+}
+
+.social-links img {
+    vertical-align: middle;
+    margin-right: 1pt;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.download-links {
+    margin-top: 8pt;
+    font-size: 10pt;
+    display: flex;
+    justify-content: center;
+}
+
+.download-links a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 1pt;
+    font-weight: 500;
+}
+
+.download-links a:hover {
+    text-decoration: underline;
+}
+
+/* Skills grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16pt;
+    margin-bottom: 16pt;
+}
+
+.skill-category {
+    background: #f8f9fa;
+    padding: 10pt;
+    border-radius: 6pt;
+    border-left: 4px solid #27ae60;
+}
+
+.skill-category h4 {
+    color: #2c3e50;
+    margin-bottom: 6pt;
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+}
+
+/* Professional Experience styling */
+h3 {
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 2pt;
+}
+
+h3 + p {
+    font-size: 10pt;
+    color: #7f8c8d;
+    font-weight: 500;
+    margin-bottom: 8pt;
+    font-style: italic;
+}
+
+/* Lists */
+ul {
+    margin: 0 0 12pt 0;
+    padding-left: 20pt;
+}
+
+li {
+    margin-bottom: 4pt;
+    line-height: 1.4;
 }
 
 /* Links */
 a {
-  text-decoration: none;
-  color: #397249;
-}
-a:hover,
-a:active {
-  background-color: #397249;
-  color: #ffffff;
-  text-decoration: none;
-  text-shadow: 1px 1px 1px #333;
+    color: #3498db;
+    text-decoration: none;
 }
 
-/* Horizontal separators */
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Strong text */
+strong {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* Emphasis */
+em {
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+/* Horizontal rules */
 hr {
-  color: #a6a6a6;
+    border: none;
+    border-top: 2px solid #ecf0f1;
+    margin: 16pt 0;
 }
 
-/* Table styling */
+/* Professional summary styling */
+h2:first-of-type + p {
+    background: #f8f9fa;
+    padding: 12pt;
+    border-radius: 6pt;
+    border-left: 4px solid #3498db;
+    margin-bottom: 16pt;
+    font-size: 11pt;
+    line-height: 1.5;
+}
+
+/* Open Source contributions */
+h3 + p + ul li {
+    font-size: 10pt;
+}
+
+/* Education section */
+h3 + p + p {
+    font-size: 10pt;
+    color: #555;
+    margin-top: 6pt;
+    text-align: justify;
+}
+
+/* Prevent page breaks in important sections */
+h2, h3 {
+    page-break-after: avoid;
+}
+
+ul {
+    page-break-inside: avoid;
+}
+
+.experience-item {
+    page-break-inside: avoid;
+    margin-bottom: 16pt;
+}
+
+/* Definition list styling (if used) */
+dt {
+    float: left;
+    clear: left;
+    width: 17%;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+dd {
+    margin-left: 20%;
+    margin-bottom: 8pt;
+}
+
+/* Blockquotes */
+blockquote {
+    text-align: center;
+    font-style: italic;
+    color: #7f8c8d;
+    border-left: 4px solid #3498db;
+    padding-left: 16pt;
+    margin: 16pt 0;
+}
+
+/* Table styling for skills if needed */
 table {
-  width: 100%;
-  margin: 20px 0;
-  border-collapse: collapse;
-  border-spacing: 0;
-  table-layout: fixed;
+    width: 100%;
+    margin: 16pt 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 table th,
 table td {
-  padding: 8px 12px;
-  text-align: left;
-  vertical-align: top;
-  border-bottom: 1px solid #e6e6e6;
-  width: 25%;
+    padding: 8pt 12pt;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #ecf0f1;
 }
 
 table th {
-  font-weight: bold;
-  color: #397249;
-  background-color: #f8f8f8;
-  border-bottom: 2px solid #9cb770;
+    font-weight: 600;
+    color: #2c3e50;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #27ae60;
 }
 
 table tr:nth-child(even) {
-  background-color: #fafafa;
+    background-color: #fafafa;
 }
 
-table tr:hover {
-  background-color: #f0f0f0;
+/* Print optimizations */
+@media print {
+    body {
+        font-size: 10pt;
+        line-height: 1.3;
+        padding: 0;
+    }
+    
+    .header {
+        margin-bottom: 16pt;
+        padding-bottom: 12pt;
+    }
+    
+    h2 {
+        font-size: 13pt;
+        margin-top: 16pt;
+        margin-bottom: 8pt;
+    }
+    
+    h3 {
+        font-size: 11pt;
+    }
+    
+    .skills-grid {
+        gap: 12pt;
+        margin-bottom: 12pt;
+    }
+    
+    .skill-category {
+        padding: 8pt;
+    }
+    
+    ul {
+        padding-left: 16pt;
+    }
+    
+    li {
+        margin-bottom: 2pt;
+    }
+    
+    a {
+        color: #333 !important;
+    }
+}
+
+/* Screen display optimizations */
+@media screen {
+    body {
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        margin: 20px auto;
+    }
 }
