@@ -3,35 +3,17 @@ title: Vaibhav Kumbhar
 ---
 
 > <vkumbhar94@gmail.com> • +91 940 318 3440\
->  E-402, Pristine Prolife, Phase 1, Wakad, Pune, IN - 411 057
+> E-402, Pristine Prolife, Phase 1, Wakad, Pune, IN - 411 057
 
 > [![linkedin](./icons8-linkedin.svg){#id .class width=40 height=30px}](https://www.linkedin.com/in/beingvaibhav/) [![github](./icons8-github.svg){#id .class width=40 height=30px}](https://github.com/vkumbhar94) [![medium](./icons8-medium.svg){#id .class width=40 height=30px}](https://medium.com/@vkumbhar94) [![personal-website](./icons8-personal-website.svg){#id .class width=40 height=30px}](https://vkumbhar94.github.io/personal-website/)\
-> Download: [pdf](https://vkumbhar94.github.io/resume/index.pdf) [docx](https://vkumbhar94.github.io/resume/index.docx) [txt](https://vkumbhar94.github.io/resume/index.txt) View: [html](https://vkumbhar94.github.io/resume)
+>
+Download: [pdf](https://vkumbhar94.github.io/resume/index.pdf) [docx](https://vkumbhar94.github.io/resume/index.docx) [txt](https://vkumbhar94.github.io/resume/index.txt)
+View: [html](https://vkumbhar94.github.io/resume)
 
 ---
 
 > Specialties: Golang, Python, Linux, Operations Research\
->  Doctor in Computer Science and Mathematics
-
----
-
-## Technical Skills
-
-| Programming | Web Development | Databases | Cloud Platforms |
-| ----------- | --------------- | --------- | --------------- |
-| Python      | HTML            | MySQL     | AWS             |
-| Java        | CSS             | PostgreSQL| Azure           |
-| JavaScript  | React           | MongoDB   | Google Cloud    |
-| C++         | Node.js         | Redis     | OpenStack       |
-| Golang      | Angular         | InfluxDB  | Digital Ocean   |
-
-| DevOps & Infrastructure | Tools & Technologies | Operating Systems | Soft Skills     |
-| ----------------------- | -------------------- | ----------------- | --------------- |
-| Docker                  | Git                  | Linux             | Leadership      |
-| Kubernetes              | Jenkins              | macOS             | Teamwork        |
-| CI/CD                   | Prometheus           | Windows           | Problem Solving |
-| Helm                    | Grafana              | Ubuntu            | Mentoring       |
-| Terraform               | ELK Stack            | CentOS            | Communication   |
+> Doctor in Computer Science and Mathematics
 
 ---
 
@@ -42,7 +24,8 @@ Since Jan, 2025
 (Pune, IN).
 
 : +-----------------------+
-| - Leading the Logs Team, providing technical guidance, mentorship, and ensuring on-time delivery of committed features.
+- Leading the Logs Team, providing technical guidance, mentorship, and ensuring on-time delivery of committed
+features.
 +-----------------------+
 
 Jan-Dec 2024
@@ -51,7 +34,8 @@ Jan-Dec 2024
 
 : +-----------------------+
 | - Led the Logs Team, providing technical guidance, mentorship, and ensuring on-time delivery of committed features.
-| - Successfully architected and implemented the Logs Partitions feature, resolving a critical bottleneck and significantly improving system performance.
+| - Successfully architected and implemented the Logs Partitions feature, resolving a critical bottleneck and
+significantly improving system performance.
 | - Collaborated cross-functionally to align logging infrastructure with business objectives and product roadmaps.
 | - Fostered a culture of continuous improvement, ensuring best practices in team
 +-----------------------+
@@ -92,6 +76,28 @@ $⭐$ [auto detection of pkgs from skaffold.yaml](https://github.com/pkgxdev/pkg
 $⭐$ [kpt dep detection in skaffold](https://github.com/pkgxdev/pkgx/pull/825)
 $⭐$ [adding skaffold to pkgx pantry](https://github.com/pkgxdev/pantry/pull/3660)
 $⭐$ [adding kpt to pkgx pantry](https://github.com/pkgxdev/pantry/pull/3667)
+
+## Technical Skills
+
+Programming
+: Golang, Python, Java, C++
+
+Databases
+: MySQL, Redis, InfluxDB
+
+Cloud
+: AWS, Google Cloud, Azure, OpenStack
+
+Architecture
+: Microservices, APIs & REST, Distributed Systems, Message Queues, Scalability Design
+
+Tools
+: Git, Docker, Kubernetes, Helm Charts, CI/CD Pipelines
+
+Leadership
+: Team Leadership, Technical Mentoring, Cross-functional Collaboration, Problem Solving, Communication
+
+---
 
 ## Education
 
