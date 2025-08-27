@@ -17,21 +17,29 @@ title: Vaibhav Kumbhar
 
 ## Technical Skills
 
-| Programming | Web Development | Databases | Cloud Platforms |
-| ----------- | --------------- | --------- | --------------- |
-| Python      | HTML            | MySQL     | AWS             |
-| Java        | CSS             | PostgreSQL| Azure           |
-| JavaScript  | React           | MongoDB   | Google Cloud    |
-| C++         | Node.js         | Redis     | OpenStack       |
-| Golang      | Angular         | InfluxDB  | Digital Ocean   |
+Programming Languages
+: Python, Java, JavaScript, C++, Golang
 
-| DevOps & Infrastructure | Tools & Technologies | Operating Systems | Soft Skills     |
-| ----------------------- | -------------------- | ----------------- | --------------- |
-| Docker                  | Git                  | Linux             | Leadership      |
-| Kubernetes              | Jenkins              | macOS             | Teamwork        |
-| CI/CD                   | Prometheus           | Windows           | Problem Solving |
-| Helm                    | Grafana              | Ubuntu            | Mentoring       |
-| Terraform               | ELK Stack            | CentOS            | Communication   |
+Web Development
+: HTML, CSS, React, Node.js, Angular
+
+Databases
+: MySQL, PostgreSQL, MongoDB, Redis, InfluxDB
+
+Cloud Platforms
+: AWS, Azure, Google Cloud, OpenStack, Digital Ocean
+
+DevOps & Infrastructure
+: Docker, Kubernetes, CI/CD, Helm, Terraform
+
+Tools & Technologies
+: Git, Jenkins, Prometheus, Grafana, ELK Stack
+
+Operating Systems
+: Linux, macOS, Windows, Ubuntu, CentOS
+
+Soft Skills
+: Leadership, Teamwork, Problem Solving, Mentoring, Communication
 
 ---
 

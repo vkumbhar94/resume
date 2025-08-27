@@ -39,7 +39,7 @@ h2:before {
   content: "";
   display: inline-block;
   margin-right: 1%;
-  width: 16%;
+  width: 25%;
   height: 10px;
   background-color: #9cb770;
 }
@@ -48,11 +48,22 @@ h2:before {
 dt {
   float: left;
   clear: left;
-  width: 17%;
+  width: 25%;
   font-weight: bold;
+  margin-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 dd {
-  margin-left: 17%;
+  margin-left: 25%;
+  margin-bottom: 10px;
+  min-height: 1.2em;
+}
+dd:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 p {
   margin-top: 0;
