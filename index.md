@@ -24,8 +24,8 @@ title: Vaibhav Kumbhar
 
 ## Professional Summary
 
-**Specialties:** Golang, Python, Linux, Operations Research  
-**Education:** Doctor in Computer Science and Mathematics  
+**Specialties:** Golang, Java, Kafka, Microservices, AWS
+**Education:** B. Tech. in Computer Science and Engineering
 **Focus:** Backend Engineering, Distributed Systems, Team Leadership
 
 Experienced Software Engineer with 9 years of development experience and 6+ years leading engineering teams. Specialized in scalable backend systems, logs/monitoring infrastructure, and microservices architecture with a proven track record of delivering high-impact solutions.
