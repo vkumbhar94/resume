@@ -5,8 +5,12 @@ title: Vaibhav Kumbhar
 <div class="header">
 <div class="contact-info">
 
+<div style="display: flex; justify-content: center; margin: 10px 0;">
+<div>
 📧 vkumbhar94@gmail.com • 📱 +91 940 318 3440<br>
 🏠 E-402, Pristine Prolife, Phase 1, Wakad, Pune, IN - 411 057<br>
+</div>
+</div>
 
 <div class="social-links">
 <a href="https://www.linkedin.com/in/beingvaibhav/"><img src="./icons8-linkedin.svg" alt="LinkedIn" width="16" height="16"> LinkedIn</a> • 
@@ -37,32 +41,45 @@ Experienced Software Engineer with 9 years of development experience and 6+ year
 <div class="skills-grid">
 <div class="skill-category">
 <h4>Programming Languages</h4>
-Golang, Python, Java, C++
+• Golang • Python • Java
 </div>
 
 <div class="skill-category">
 <h4>Databases & Storage</h4>
-MySQL, Redis, InfluxDB
+• MySQL • Redis • Cassandra • Titan Graph Database
 </div>
 
 <div class="skill-category">
 <h4>Cloud Platforms</h4>
-AWS, Google Cloud, Azure, OpenStack
+• AWS • Google Cloud • Azure • OpenStack
 </div>
 
 <div class="skill-category">
 <h4>System Architecture</h4>
-Microservices, APIs & REST, Distributed Systems, Message Queues, Scalability Design
+• Microservices • Distributed Systems • Multi-tenant Architecture<br>
+• Query Engines • Streaming Data Pipelines • Scalability Design
 </div>
 
 <div class="skill-category">
-<h4>Development Tools</h4>
-Git, Docker, Kubernetes, Helm Charts, CI/CD Pipelines
+<h4>Message & Integration</h4>
+• Kafka • RabbitMQ • APIs & REST • AWS Lambda
+</div>
+
+<div class="skill-category">
+<h4>DevOps & Container Tech</h4>
+• Docker • Kubernetes • Helm Charts<br>
+• Operators Framework • CI/CD Pipelines
+</div>
+
+<div class="skill-category">
+<h4>Development Frameworks</h4>
+• Spring boot • Maven • JBPM • Git
 </div>
 
 <div class="skill-category">
 <h4>Leadership</h4>
-Team Leadership, Technical Mentoring, Cross-functional Collaboration, Problem Solving
+• Team Leadership • Technical Mentoring<br>
+• Cross-functional Collaboration • Problem Solving
 </div>
 </div>
 
@@ -87,7 +104,10 @@ Team Leadership, Technical Mentoring, Cross-functional Collaboration, Problem So
 - Collaborated cross-functionally to align logging infrastructure with business objectives and product roadmaps
 - Fostered a culture of continuous improvement, ensuring best practices in team development
 
-### Senior Software Engineer - Logs Team | LogicMonitor
+**Technologies Used:** Golang, Kafka, AWS, EKS, Ragel Parser, Pigeon PEG, AWS Lambda  
+**Architecture:** Streaming Data Pipelines, Microservices, Multi-tenant Log Partitioning, Query Engine
+
+### Senior Software Engineer - Logs | [LogicMonitor](https://www.logicmonitor.com)
 
 **Feb 2023 - Dec 2023** • _Pune, India_
 
@@ -95,7 +115,10 @@ Team Leadership, Technical Mentoring, Cross-functional Collaboration, Problem So
 - Improved system performance and reliability through optimization initiatives
 - Collaborated with cross-functional teams to enhance logging capabilities
 
-### Senior Software Engineer - Argus Team | LogicMonitor
+**Technologies Used:** Golang, Kafka, AWS, EKS, AWS Lambda, Query Grammar Specification  
+**Architecture:** Streaming Data Pipelines, Microservices, Log Chunking, Stateful Window Alerting, Logs Isolation
+
+### Senior Software Engineer - Argus | [LogicMonitor](https://www.logicmonitor.com)
 
 **Aug 2020 - Feb 2023** • _Pune, India_
 
@@ -103,13 +126,34 @@ Team Leadership, Technical Mentoring, Cross-functional Collaboration, Problem So
 - Enhanced monitoring capabilities for cloud-native environments
 - Implemented performance improvements reducing discovery latency
 
-### Software Engineer - Argus Team | LogicMonitor
+### Software Engineer - Argus | [LogicMonitor](https://www.logicmonitor.com)
 
 **Jan 2020 - Aug 2020** • _Pune, India_
 
-- Completed knowledge transfer from China team for Argus project
-- Successfully implemented support for monitoring new Kubernetes versions
-- Contributed to cloud monitoring infrastructure development
+- Built Argus Kubernetes monitoring platform from scratch to production
+- Developed LM Collector operator for Kubernetes deployment via Docker containerization
+- Scaled Argus to monitor large clusters with 10K+ resources
+- Created unified [LogicMonitor Helm Charts](https://github.com/logicmonitor/helm-charts) for streamlined deployment
+
+**Technologies Used:** Golang, Kubernetes, Operators Framework, Docker, Helm  
+**Architecture:** Microservices, Containerization, Cloud-native
+
+### Software Engineer | [Veritas](https://www.veritas.com) (now Cohesity)
+
+**Jan 2016 - Dec 2019** • _Pune, India_
+
+Worked on **Veritas Resiliency Platform** - Provides VM disaster recovery to various heterogeneous virtualization and cloud platforms.
+
+**Key Responsibilities and Achievements:**
+
+- **Config Drift Risk System:** Led design proposal to implementation including risk system design, proposal presentation, implemented Design patterns (Template method, Strategy), and Test Driven Development
+- **AWS integration with VRP:** Developed comprehensive framework to write APIs for AWS with hands-on experience in AWS VPC, EC2 components, Python, Maven, Spring, and AWS ecosystem microservices
+- **Azure Asset Discovery:** Implemented Microsoft Azure asset discovery system with deep integration into Azure ecosystem and OAuth2 authentication
+- **Data Gateway Ecosystem:** Developed data gateway ecosystem in VRP with deep understanding of RabbitMQ and introduction to serverless architecture
+- **Veritas Datamover and OpenStack:** Developed rehearsal workflow including writing BPMNs, TestNG, and Java stream APIs
+
+**Technologies Used:** Java 8, Spring, RabbitMQ, Cassandra, Python, Titan Distributed Graph Database, JBPM  
+**Architecture:** Hybrid (SOA + Microservices), Distributed systems
 
 ---
 
